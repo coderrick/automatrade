@@ -1,0 +1,37 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@liquality/bitcoin-networks": "^0.3.0",
+    "@liquality/bitcoin-node-wallet-provider": "^0.3.0",
+    "@liquality/bitcoin-rpc-provider": "^0.3.0",
+    "@liquality/bitcoin-swap-provider": "^0.3.0",
+    "@liquality/bundle": "^0.3.0",
+    "@liquality/client": "^0.3.0",
+    "@liquality/crypto": "^0.3.0",
+    "@liquality/ethereum-metamask-provider": "^0.3.0",
+    "@liquality/ethereum-networks": "^0.3.0",
+    "@liquality/ethereum-rpc-provider": "^0.3.0",
+    "@liquality/ethereum-swap-provider": "^0.3.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "web3": "^1.0.0-beta.37"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
